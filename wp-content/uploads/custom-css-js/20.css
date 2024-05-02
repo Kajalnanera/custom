@@ -1,0 +1,34 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+.ctm-header {
+	position: absolute !important;
+	width: 100% !important;
+	background-color: transparent !important;
+}
+.ctm-header.et_pb_sticky {
+	background-color: #fff !important;
+}
+.ctm-center-content {
+	display: flex !important;
+	align-items: center !important;
+}
+/* Testimonial css */
+.ctm-testimonial-module .et_pb_slide_with_image .et_pb_slide_description {
+    width: 100% !important;
+}
+.ctm-testimonial-module .et_pb_slide_image, .et_pb_slide_video {
+	width: 100% !important;
+    margin-right: 0% !important;
+}
+.ctm-line-row::before {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 100px;
+    background: #000;
+    top: 50%;
+    transform: translate(90px, -50%);
+	left: -8%;
+}
+/* End of testimonial css */</style>
+<!-- end Simple Custom CSS and JS -->
